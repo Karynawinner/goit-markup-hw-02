@@ -1,0 +1,45 @@
+/* General features */
+body {
+  font-family: "Roboto", sans-serif;
+  color: 2e2F42;
+  background-color: FFFFFF;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Header */
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-navigation-link-list {
+}
+.header-navigation-link-item {
+}
+.address {
+}
+.address-link {
+}
+
+/* Sections common features */
+.section-common-features {
+}
+.main-title {
+}
+.section-title {
+}
+.section-subtitle {
+}
+.section-text {
+}

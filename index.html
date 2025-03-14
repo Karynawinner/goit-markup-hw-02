@@ -4,56 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo" href="./index.html">WebStudio</a>
+        <ul class="header-navigation-link-list">
+          <li class="header-navigation-link-item"><a href="">Studio</a></li>
+          <li class="header-navigation-link-item"><a href="">Portfolio</a></li>
+          <li class="header-navigation-link-item"><a href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="address">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
+      <section class="section-common-features">
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
         <button type="button">Order Service</button>
       </section>
       <section>
-        <h2>Description of advantages</h2>
+        <h2 class="section-title">Description of advantages</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="section-subtitle">Strategy</h3>
+            <p class="section-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="section-subtitle">Punctuality</h3>
+            <p class="section-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="section-subtitle">Diligence</h3>
+            <p class="section-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="section-subtitle">Technologies</h3>
+            <p class="section-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -61,7 +76,7 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
+        <h2 class="section-title">Our Team</h2>
         <ul>
           <li>
             <img
@@ -69,8 +84,8 @@
               alt="team member design"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="section-subtitle">Mark Guerrero</h3>
+            <p class="section-text">Product Designer</p>
           </li>
           <li>
             <img
@@ -78,8 +93,8 @@
               alt="team member development"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="section-subtitle">Tom Ford</h3>
+            <p class="section-text">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -87,8 +102,8 @@
               alt="team member marketing"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="section-subtitle">Camila Garcia</h3>
+            <p class="section-text">Marketing</p>
           </li>
           <li>
             <img
@@ -96,13 +111,13 @@
               alt="team member ui design"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="section-subtitle">Daniel Wilson</h3>
+            <p class="section-text">UI Designer</p>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Our Portfolio</h2>
+        <h2 class="section-title">Our Portfolio</h2>
         <ul>
           <li>
             <img
@@ -111,8 +126,8 @@
               width="360"
               height="300"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="section-subtitle">Banking App</h3>
+            <p class="section-text">App</p>
           </li>
           <li>
             <img
@@ -121,8 +136,8 @@
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="section-subtitle">Cashless Payment</h3>
+            <p class="section-text">Marketing</p>
           </li>
           <li>
             <img
@@ -131,14 +146,14 @@
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="section-subtitle">Meditation App</h3>
+            <p class="section-text">App</p>
           </li>
           <li>
             <img src="./images/taxi.service.jpg" alt=taxi.servic" width="360"
             height="300">
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="section-subtitle">Taxi Service</h3>
+            <p class="section-text">Marketing</p>
           </li>
           <li>
             <img
@@ -147,8 +162,8 @@
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="section-subtitle">Screen Illustrations</h3>
+            <p class="section-text">Design</p>
           </li>
           <li>
             <img
@@ -157,8 +172,8 @@
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="section-subtitle">Online Courses</h3>
+            <p class="section-text">Marketing</p>
           </li>
         </ul>
       </section>
