@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css" 
+      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,23 +22,23 @@
   <body>
     <header class="header">
       <nav class="header-navigation">
-        <a class="header-logo" href="./index.html">WebStudio</a>
-        <ul class="header-navigation-link-list">
-          <li class="header-navigation-link-item"><a href="">Studio</a></li>
-          <li class="header-navigation-link-item"><a href="">Portfolio</a></li>
-          <li class="header-navigation-link-item"><a href="">Contacts</a></li>
+        <a class="header-logo" href="./index.html"> <span class="header-logo-web">Web</span>Studio</a>
+        <ul class="header-navigation-list">
+          <li class="header-navigation-item"><a class="header-navigation-link" href="">Studio</a></li>
+          <li class="header-navigation-item"><a class="header-navigation-link" href="">Portfolio</a></li>
+          <li class="header-navigation-item"><a class="header-navigation-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address class="address">
+      <address class="header-address">
         <ul>
-          <li>
-            <a class="address-link" href="mailto:info@devstudio.com"
+          <li class="header-address-item">
+            <a class="heared-address-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
+          <li class="header-address-item">
+            <a class="heared-address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11 </a
             >
           </li>
         </ul>
@@ -40,33 +47,33 @@
     <main>
       <section class="section-common-features">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="main-btn" type="button">Order Service</button>
       </section>
       <section>
         <h2 class="section-title">Description of advantages</h2>
-        <ul>
-          <li>
+        <ul class="section-list">
+          <li class="section-list-item">
             <h3 class="section-subtitle">Strategy</h3>
             <p class="section-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="section-list-item">
             <h3 class="section-subtitle">Punctuality</h3>
             <p class="section-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="section-list-item">
             <h3 class="section-subtitle">Diligence</h3>
             <p class="section-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="section-list-item">
             <h3 class="section-subtitle">Technologies</h3>
             <p class="section-text">
               Design practice focused on digital experiences. We bring forth a
@@ -75,11 +82,11 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-common-features">
         <h2 class="section-title">Our Team</h2>
-        <ul>
-          <li>
-            <img
+        <ul class="section-list">
+          <li class="section-list-item">
+            <img class="team-foto"
               src="./images/markguerrero.jpg"
               alt="team member design"
               width="264"
@@ -87,8 +94,8 @@
             <h3 class="section-subtitle">Mark Guerrero</h3>
             <p class="section-text">Product Designer</p>
           </li>
-          <li>
-            <img
+          <li class="section-list-item">
+            <img class="team-foto"
               src="./images/tomford.jpg"
               alt="team member development"
               width="264"
@@ -96,8 +103,8 @@
             <h3 class="section-subtitle">Tom Ford</h3>
             <p class="section-text">Frontend Developer</p>
           </li>
-          <li>
-            <img
+          <li class="section-list-item">
+            <img class="team-foto"
               src="./images/camilagarcia.jpg"
               alt="team member marketing"
               width="264"
@@ -105,8 +112,8 @@
             <h3 class="section-subtitle">Camila Garcia</h3>
             <p class="section-text">Marketing</p>
           </li>
-          <li>
-            <img
+          <li class="section-list-item">
+            <img class="team-foto"
               src="./images/danielwilson.jpg"
               alt="team member ui design"
               width="264"
@@ -116,11 +123,11 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-common-features">
         <h2 class="section-title">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img
+        <ul class="section-list">
+          <li class="section-list-item">
+            <img class="portfolio-foto" 
               src="./images/banking.app.jpg"
               alt="banking.app"
               width="360"
@@ -129,8 +136,8 @@
             <h3 class="section-subtitle">Banking App</h3>
             <p class="section-text">App</p>
           </li>
-          <li>
-            <img
+          <li class="section-list-item">
+            <img class="portfolio-foto" 
               src="./images/cashless.payment.jpg"
               alt="cashless.payment"
               width="360"
@@ -139,8 +146,8 @@
             <h3 class="section-subtitle">Cashless Payment</h3>
             <p class="section-text">Marketing</p>
           </li>
-          <li>
-            <img
+          <li class="section-list-item">
+            <img class="portfolio-foto"
               src="./images/meditation.app.jpg"
               alt="meditation.app"
               width="360"
@@ -149,14 +156,18 @@
             <h3 class="section-subtitle">Meditation App</h3>
             <p class="section-text">App</p>
           </li>
-          <li>
-            <img src="./images/taxi.service.jpg" alt=taxi.servic" width="360"
-            height="300">
+          <li class="section-list-item">
+            <img class="portfolio-foto" 
+              src="./images/taxi.service.jpg" 
+              alt="taxi.service" 
+              width="360"
+              height="300" 
+            />
             <h3 class="section-subtitle">Taxi Service</h3>
             <p class="section-text">Marketing</p>
           </li>
-          <li>
-            <img
+          <li class="section-list-item">
+            <img class="portfolio-foto" 
               src="./images/screen.illustrations.jpg"
               alt="screen.illustrations"
               width="360"
@@ -165,8 +176,8 @@
             <h3 class="section-subtitle">Screen Illustrations</h3>
             <p class="section-text">Design</p>
           </li>
-          <li>
-            <img
+          <li class="section-list-item">
+            <img class="portfolio-foto" 
               src="./images/online.courses.jpg"
               alt="online.courses"
               width="360"
@@ -175,7 +186,7 @@
             <h3 class="section-subtitle">Online Courses</h3>
             <p class="section-text">Marketing</p>
           </li>
-        </ul>
+        </ul class="section-list">
       </section>
     </main>
     <footer>
