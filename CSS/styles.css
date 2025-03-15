@@ -1,7 +1,7 @@
 /* General features */
 body {
   font-family: "Roboto", sans-serif;
-  color: 2e2F42;
+  color: var(--navy-blue);
   background-color: FFFFFF;
 }
 ul {
@@ -22,24 +22,109 @@ button {
 .header-navigation {
 }
 .header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
 }
-.header-navigation-link-list {
+
+.header-logo .logo-web {
+  color: var (--iris);
 }
-.header-navigation-link-item {
+.header-navigation-list {
 }
-.address {
+.header-navigation-item {
 }
-.address-link {
+.header-navigation-link {
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-navigation-link:hover {
+  color: var(--ocean);
+}
+
+.header-address {
+}
+.header-address-item {
+}
+
+.heared-address-link {
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.heared-address-link:hover {
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--ocean);
 }
 
 /* Sections common features */
+
 .section-common-features {
 }
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 40px; */
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.section-list {
+}
+
+.section-list-item {
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.section-text {
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* HOVER section */
+
 .main-title {
 }
-.section-title {
+
+.main-btn {
 }
-.section-subtitle {
+
+.main-btn:hover {
 }
-.section-text {
-}
+
+/* Description of advantages section */
+
+/* Our Team section */
+
+/* Our Portfolio section */
+
+/* Footer */
